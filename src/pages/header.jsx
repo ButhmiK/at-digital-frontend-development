@@ -5,7 +5,7 @@ import "../index.css";
 function header() {
   return (
     <div>
-      <div className="w-[fixed 1440px] h-[Hug 77px] flex justify-between p-26 pl-80 pr-80 pb-26  bg-primaryPurple ">
+      <div className="items-center w-[fixed 1440px] h-[Hug 77px] flex justify-between p-26 pl-80 pr-80 pb-26  bg-primaryPurple ">
         <img
           className="w-[238.89px] h-[36.11px] top-[-11.11px] sm:w-[238.89px] sm:h-[25px] xl:w-[238.89px] xl:h-[36.11px]"
           src={logo}
