@@ -9,7 +9,8 @@ function main() {
   return (
     <div>
       <Header />
-      <img className="w-[1520px] h-[700px] sm:w[375px] sm:h-[218px] md:w-[768px] md:h-[448px] xl:w-[1200px] xl:h-[700px] pt:77" src={hero} alt="heroimg" />
+      {/* <img className="w-[1400px] h-[700px] sm:w[375px] sm:h-[218px] md:w-[768px] md:h-[448px] xl:w-[1200px] xl:h-[700px] pt:77" src={hero} alt="heroimg" /> */}
+         <img className="w-[1520px]" src={hero} alt="heroimg" />
       <div className="w-[fixed 630px] h-[Hug 306px] absolute top-354 left-80 bg-gradient-to-r from-green to-blue">
         <h1 className="text-white">
           We crush your competitors, goals, and sales records - without the B.S.

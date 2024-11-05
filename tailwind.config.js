@@ -31,12 +31,12 @@ module.exports = {
         lato: ["Lato"],
       },
       padding: {
+        20: "20px",
+        24: "24px",
         26: "26px",
+        40: "40px",
         80: "80px",
         77: "77px",
-        24: "24px",
-        40: "40px",
-        77: "77px"
       },
       spacing: {
         354: "354px",
@@ -45,13 +45,14 @@ module.exports = {
         28: "28px",
         12: "12px",
         20: "20px",
+        128: "128px",
       },
       // fontSize: {
       //   sm: ["14px", "16.94px"],
       // },
       lineHeight: {
-        lh1 : '25.41px',
-        lh2 : '16.94px',
+        lh1: "25.41px",
+        lh2: "16.94px",
       },
     },
   },
