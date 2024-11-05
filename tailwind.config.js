@@ -27,6 +27,7 @@ module.exports = {
         green: "#4DCA79",
         whitepup: "#FAF8FF",
         darkp: "#6F6C90",
+        dblack: "#100C08",
 
       },
       fontFamily: {
