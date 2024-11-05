@@ -41,43 +41,58 @@ function main() {
         </div>
       </div>
       <div>
-        <img className ="w-[414px] h-[416px] "src={img1} alt="img1" />
+        <img className="w-[414px] h-[416px] " src={img1} alt="img1" />
         <div className="w-[Fixed 542px] h-[Hug 187px] gap-[20px]">
-        <h3 className="w-[507px] h-[33px] font-semibold text-primaryPurple font-poppins leading-lh4 text-[27px] tracking-[0.4px]">Digital Strategy Consulting</h3>
-        <p className="w-[542px] h-[76px]font-normal font-inter text-[16px] leading-lh5 text-black">
-          Your digital strategy should complement the overall marketing strategy
-          of the company. In online marketing, each component will never work in
-          isolation and every business needs a different mix. We provide a clear
-          concept and strategic overview to find the most efficient model for
-          your business.
-        </p>
-        <button className=" w-[Hug 129px] h-[Hug 38px] rounded gap-8 p-12 pr-20 pb-12 pl-20 uppercase bg-orange text-white  font-inter font-bold text-[14px] leading-[14px] tracking-[-2%]">
-          LEARN MORE
-        </button>
+          <h3 className="w-[507px] h-[33px] font-semibold text-primaryPurple font-poppins leading-lh4 text-[27px] tracking-[0.4px]">
+            Digital Strategy Consulting
+          </h3>
+          <p className="w-[542px] h-[76px]font-normal font-inter text-[16px] leading-lh5 text-black">
+            Your digital strategy should complement the overall marketing
+            strategy of the company. In online marketing, each component will
+            never work in isolation and every business needs a different mix. We
+            provide a clear concept and strategic overview to find the most
+            efficient model for your business.
+          </p>
+          <button className=" w-[Hug 129px] h-[Hug 38px] rounded gap-8 p-12 pr-20 pb-12 pl-20 uppercase bg-orange text-white  font-inter font-bold text-[14px] leading-[14px] tracking-[-2%]">
+            LEARN MORE
+          </button>
         </div>
       </div>
-      <div>
-        <h3>Frequently asked questions</h3>
+      <div className="w-[Hug 846px] h-[Hug 392px] gap-28">
+        <h3 className="w-[389px] h-[33px] font-poppins font-semibold  text-primaryPurple text-[26px] leading-lh4 tracking-[0.4px] ">
+          Frequently asked questions
+        </h3>
       </div>
-      <div>
-        <div>
-          <h4>Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?</h4>
+      <div className="w-[hug 846px] h-[hug 331px] top-[1847px] left -[297px] gap-[15px]">
+      <div className="w-[fixed 846px] h-[hug 149px] rounded-[7px] gap-13p-24px bg-whitepup">
+        <div className="w-[fill 798px] h-[hug 28px] gap-[40px] ">
+          <h4 className="font-medium font-inter text-primaryPurple text-[22px] leading-lh6">
+            Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?
+          </h4>
         </div>
-
         <div>
-          <p>
+          <p className="w-[798px] h-[60px] font-inter  text-darkp front-normal text-[18px] leading-lh7">
             Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id
             ipsum. Elementum ultrices nulla faucibus odio est sed aliquam.
             Sapien massa morbi risus sagittis tortor integer.
           </p>
         </div>
-        <h4>
-          Lorem ipsum dolor sit amet consectetur. Tortor scelerisque integer?
-        </h4>
-        <h4>
-          {" "}
-          Lorem ipsum dolor sit amet consectetur. Faucibus scelerisque nunc?
-        </h4>
+        <div className="w-[fixed 846px] h-[hug 76px] rounded-[7px] gap-[13px] p-[24px] bg-whitepup">
+          <div className="w-[fill 798px] h-[hug 28px] gap-[40px]">
+            <h4 className="w-[fill 744px] h-[hug 28px] font-inter font-medium text-[22px] gap-[40px0] leading-lh6 text-black">
+              Lorem ipsum dolor sit amet consectetur. Tortor scelerisque
+              integer?
+            </h4>
+          </div>
+        </div>
+        <div className="w-[fixed 846px] h-[hug 76px] rounded-[7px] gap-[13px] p-[24px] bg-whitepup">
+          <div className="w-[fill 798px] h-[hug 28px] gap-[40px]">
+            <h4 className="w-[fill 744px] h-[hug 28px] font-inter font-medium text-[22px] gap-[40px0] leading-lh6 text-black">
+              Lorem ipsum dolor sit amet consectetur. Faucibus scelerisque nunc?
+            </h4>
+          </div>
+          </div>
+        </div>
       </div>
     </div>
   );

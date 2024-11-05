@@ -25,6 +25,9 @@ module.exports = {
         orange: "#F28D35",
         blue: "#1CBDDD",
         green: "#4DCA79",
+        whitepup: "#FAF8FF",
+        darkp: "#6F6C90",
+
       },
       fontFamily: {
         inter: ["Inter"],
@@ -48,6 +51,7 @@ module.exports = {
         8:"8px",
         28: "28px",
         12: "12px",
+        13:"13px",
         20: "20px",
         128: "128px",
       },
@@ -59,7 +63,9 @@ module.exports = {
         lh2: "16.94px",
         lh3: "48px",
         lh4: "33px",
-        lh5: "19.36px"
+        lh5: "19.36px",
+        lh6: "28px",
+        lh7: "30px",
       },
     },
   },
