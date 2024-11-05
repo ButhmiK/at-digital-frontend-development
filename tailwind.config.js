@@ -29,11 +29,14 @@ module.exports = {
       fontFamily: {
         inter: ["Inter"],
         lato: ["Lato"],
+        poppins: ["Poppins"],
       },
       padding: {
+        12:"12px",
         20: "20px",
         24: "24px",
         26: "26px",
+        32: "32px",
         40: "40px",
         80: "80px",
         77: "77px",
@@ -42,6 +45,7 @@ module.exports = {
         354: "354px",
       },
       gap: {
+        8:"8px",
         28: "28px",
         12: "12px",
         20: "20px",
@@ -53,6 +57,9 @@ module.exports = {
       lineHeight: {
         lh1: "25.41px",
         lh2: "16.94px",
+        lh3: "48px",
+        lh4: "33px",
+        lh5: "19.36px"
       },
     },
   },

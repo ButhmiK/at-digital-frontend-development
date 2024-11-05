@@ -55,7 +55,7 @@ function footer() {
           </ul>
         </div>
       </div>
-      <div className=" w-[fixed 630px] h-[Hug 25px] gap-8">
+      {/* <div className=" w-[fixed 630px] h-[Hug 25px] gap-8">
         <hr className="w-[630px] border content-center " />
         <div className="w-[Hug 257px] h-[Hug 17px] gap-16">
           <p className=" w-[94px] h-[17px] font-inter text-white font-medium leading-lh2">
@@ -66,7 +66,7 @@ function footer() {
             Terms & Conditions
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
