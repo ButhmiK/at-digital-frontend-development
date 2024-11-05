@@ -28,6 +28,7 @@ module.exports = {
       },
       fontFamily: {
         inter: ["Inter"],
+        lato: ["Lato"],
       },
       padding: {
         26: "26px",
@@ -42,9 +43,15 @@ module.exports = {
       },
       gap: {
         28: "28px",
+        12: "12px",
+        20: "20px",
       },
-      fontSize: {
-        sm: ["14px", "16.94px"],
+      // fontSize: {
+      //   sm: ["14px", "16.94px"],
+      // },
+      lineHeight: {
+        lh1 : '25.41px',
+        lh2 : '16.94px',
       },
     },
   },
