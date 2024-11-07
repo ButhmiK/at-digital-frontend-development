@@ -4,30 +4,35 @@ import "../index.css";
 import hero from "../assets/Hero Image.png";
 import img1 from "../assets/image 1.png";
 import img2 from "../assets/image 2.png";
+import Footer from "./footer";
+
 
 function main() {
   return (
-    <div className="custom-2xl sm:left-[4803px]">
+    <div>
+    <div className="custom_2xl">
       <Header />
       <img className="2xl:w-[1440px] 2xl:h-[700px] " src={hero} alt="heroimg" />
-      <div className=" 2xl:w-[fixed 630px] 2xl:h-[hug 306px] 2xl:top-[440px] 2xl:left-[80px]  2xl:pt-[24px] 2xl:pr-[40px] absolute 2xl:pb-[32px] 2xl:pl-[40px] 2xl:gap-20 sm:h-[294px] sm:top-[295px] sm:p-[24px_20px_32px_20px] sm:gap-[20px]  bg-gradient-to-r from-green to-blue">
-        <p className="2xl:w-[556px] 2xl:h-[192px] sm:w-[335px] sm:h-[180px]  font-bold text-white  capitalize font-inter  text-[46px] leading-lh3 tracking-[-2%]">
+      <div className="absolute 2xl:w-[fixed 630px] 2xl:h-[hug 306px] 2xl:top-[440px] 2xl:left-[80px]  2xl:p-[24px_40px_32px_40px]  2xl:gap-20 sm:h-[294px] sm:top-[295px] sm:p-[24px_20px_32px_20px] sm:gap-[20px]  bg-gradient-to-r from-green to-blue">
+        <p className="2xl:w-[556px] 2xl:h-[205px] sm:w-[335px] sm:h-[180px]  font-bold text-white  capitalize font-inter  text-[46px] leading-lh3 tracking-[-2%]">
           We crush your competitors, goals, and sales records - without the B.S.
         </p>
-        <button className="2xl:w-[hug 214px] 2xl:h-[hug 38px] rounded 2xl:pt-[12px] 2xl:pr[20px] 2xl:pb-[12px] 2xl:pl-[20px] 2xl:gap-8 bg-orange text-[14px]">
-          Get fee consultattion
+        <button className="2xl:w-[214px] 2xl:h-[38px] 2xl:p-[12px_20px] 2xl:gap-[8px] rounded bg-orange ">
+          <p className="w-[174px] h-[14px] font-inter text-[14px] font-bold leading-[14px] tracking-[-2%] text-white ">
+            Get free consultation
+          </p>
         </button>
       </div>
 
       {/*web & mobile app dev*/}
 
-      <div className=" mb-36 flex justify-center w-[Hug 1064px] h-[Hug 414px] top-[857px] left-[188px] gap-[108px] ">
+      <div className="mb-36 flex justify-center w-[Hug 1064px] h-[Hug 414px] top-[857px] left-[188px] gap-[108px] ">
         <img
           className="sm:w-[335px] sm:h-[572.82px] sm:top-[649px] sm:left-[20px] sm:gap-[20px]  2xl:w-[414px] 2xl:h-[414px] "
           src={img2}
           alt="img2"
         />
-        <div className=" mt-36 2xl:w-[Hug 542px] 2xl:h-[Hug 187px] 2xl:gap-20">
+        <div className=" mt-36 2xl:w-[Hug 542px] 2xl:h-[hug 187px] 2xl:gap-20">
           <h3 className="2xl:w-[507px] 2xl:h-[33px] 2xl:gap-12 font-semibold text-primaryPurple font-poppins leading-lh4 text-[27px] tracking-[0.4px]">
             Web & Mobile App Development
           </h3>
@@ -47,7 +52,7 @@ function main() {
 
       {/*digital stratergy*/}
 
-      <div className="flex justify-center 2xl:[hug 1064px] 2xl:h-[hug 416px] 2xl:top-[1351px] 2xl:left-[188px] 2xl:gap-[108px] w-[Hug 1064px] h-[Hug 414px] gap-[20px] ">
+      <div className="flex items-center justify-center 2xl:w-[hug 1064px] 2xl:h-[hug 416px] 2xl:top-[1351px] 2xl:left-[188px] 2xl:gap-[108px] w-[Hug 1064px] h-[Hug 414px] gap-[20px] 2xl:pb-8">
         <div className="2xl:w-[fixed 542px] 2xl:h-[hug 206px] 2xl:gap-20">
           <h3 className="2xl:w-[507px] 2xl:h-[33px] font-semibold text-primaryPurple font-poppins leading-lh4 text-[27px] tracking-[0.4px]">
             Digital Strategy Consulting
@@ -73,7 +78,7 @@ function main() {
       </div>
 
       {/* faq */}
-      <div className=" flex flex-col items-center justify-center 2xl:w[hug 846px] 2xl:h-[hug 392px] 2xl:top-[1847px] 2xl:left[297px] 2xl:gap-28">
+      <div className=" flex flex-col items-center justify-center 2xl:w-[hug 846px] 2xl:h-[hug 392px] 2xl:top-[1847px] 2xl:left[297px] 2xl:gap-28">
         <h3 className="2xl:w-[389px] 2xl:h-[33px] font-poppins font-semibold  text-primaryPurple text-[26px] leading-lh4 tracking-[0.4px] ">
           Frequently asked questions
         </h3>
@@ -120,9 +125,12 @@ function main() {
               {/* plusicon */}
             </div>
           </div>
+          
         </div>
-      </div>
-    </div>
+      </div> 
+     
+    </div> <Footer /></div>
+   
   );
 }
 

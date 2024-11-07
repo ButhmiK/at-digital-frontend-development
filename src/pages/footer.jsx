@@ -4,7 +4,7 @@ import flogo from "../assets/Logo.png";
 
 function footer() {
   return (
-    <div className=" 2xl:w-[fixed 1440px] 2xl:h-[hug 266px] 2xl:top-[2319px] 2xl:pt-[40px] pr-[80px] pb-[0px] pl-[80px] 2xl:gap-[40px] bg-primaryPurple ">
+    <div className="2xl:w-[1440px] 2xl:h-[hug 266px] 2xl:top-[2319px] 2xl:pt-[40px] 2xl:pr-[80px] 2xl:pl-[80px] 2xl:gap-[40px] bg-primaryPurple ">
     
 
       <div className="2xl:w-[fill 1280px] 2xl:h-[Hug 141px] top-[1004px]  flex 2xl:justify-between  ">
