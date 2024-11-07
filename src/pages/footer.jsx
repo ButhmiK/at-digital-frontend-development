@@ -4,24 +4,28 @@ import flogo from "../assets/Logo.png";
 
 function footer() {
   return (
-    <div className="sm:w-[375px] sm:h-[hug 599px] sm:top-[2744px] sm:pt-40 sm:pr-2 sm:pb-20 sm:gap-40 ">
-    <div className=" bg-primaryPurple">
-      <div className="w-[fixed 1440px] h-[Hug 266px] sm:w-[fill 335px] sm:h-[hug 121px] sm:gap-20 top-[1004px]  flex justify-between left-[99px] p-40 pr-80 pl-80 pb-20 ">
-        <div className=" flexw-[fixed 413px] h-[Hug 102px]">
+    <div className=" 2xl:w-[fixed 1440px] 2xl:h-[hug 266px] 2xl:top-[2319px] 2xl:pt-[40px] pr-[80px] pb-[0px] pl-[80px] 2xl:gap-[40px] bg-primaryPurple ">
+    
+
+      <div className="2xl:w-[fill 1280px] 2xl:h-[Hug 141px] top-[1004px]  flex 2xl:justify-between  ">
+        
+        {/* img,note */}
+        <div className=" 2xl:[fixed 413px] 2xl:h-[Hug 102px]">
           <img
             className=" sm:m-5 w-[238.89px] h-[36.11px] top -[-11.11px] sm:w-[238.89px] sm:h-[36.11px] sm:top-[-11.11px]"
             src={flogo}
             alt="footerlogo"
           />
           <br />
-          <p className="  w-[413px] h-[57px] sm:w-[335px] sm:h-[76px] sm:text-[16px] sm:leading-[19.2px] sm: text-white font-lato">
+          <p className="  2xl:w-[413px] 2xl:h-[57px] sm:w-[335px] sm:h-[76px] text-[16px] leading-[19.2px] sm: text-white font-lato">
             Your goal is our target. Not anything in between. We use online
             marketing platforms and tools to achieve single objective - your
             business results.
           </p>
         </div>
-        <div className="w-[Hug 522px] h-[Hug 141px] flex gap-128">
-          <div className="w-[fixed 197px] h-[Hug 141px] grid gap-12 ">
+        {/* tech.services */}
+        <div className="2xl:w-[Hug 522px] 2xl:h-[Hug 141px] flex 2xl:gap-128">
+          <div className="2xl:w-[fixed 197px] 2xl:h-[Hug 141px] grid 2xl:gap-12 ">
             <h3 className="w-[179px] h-[25px] text-white text-[21px] font-inter font-semibold leading-lh1">
               Our Technologies
             </h3>
@@ -40,7 +44,7 @@ function footer() {
               </li>
             </ul>
           </div>
-          <div className="w-[fixed 197px] h-[Hug 129px] grid gap-12 ">
+          <div className="2xl:w-[fixed 197px] 2xl:h-[Hug 129px] grid 2xl:gap-12 ">
             <h4 className="w-[132px] h-[25px] text-white text-[21px] font-inter font-semibold leading-lh1">
               Our Services
             </h4>
@@ -56,22 +60,24 @@ function footer() {
               </li>
             </ul>
           </div>
+           </div>
+           
+      </div>
+      <div className="flex justify-center w-[fixed 30px] h-[hug 25px] gap-8 m-12 mb-4">
+        <hr className="w-[630px] border-[1px]" />
         </div>
-      </div>
-      <div className="flex justify-center ">
-        <hr className="w-[630px] h-[10px] mt-10" />
-      </div>
 
-      <div className="flex justify-center gap-[40px]">
-        <p className="font-medium text-white font-inter leading-lh2">
+      <div className="flex justify-center w-[hug 257px] h-[hug 17px] gap-[16px]">
+        <p className="font-medium text-white font-inter leading-lh2 text-[14px] w-[94px] h-[17px] ">
           Privacy Policy
         </p>
-        <p className="mb-10 font-medium text-white font-inter leading-lh2">
+        <p className="mb-10 font-medium text-white font-inter leading-lh2 text-[14px] w-[131px] h-[17px">
           Terms & Conditions
         </p>
       </div>
+      
     </div>
-    </div>
+    
   );
 }
 
