@@ -7,30 +7,30 @@ import img2 from "../assets/image 2.png";
 
 function main() {
   return (
-    <div className="custom-2xl screens:sm,md,xl,2xl sm:h-[3343px] sm:left-[4803px]">
+    <div className="custom-2xl  sm:h-[3343px] sm:left-[4803px]">
       <Header />
-      <img
-        className="  2xl:w-[1440] 2xl:h-[700px] 2xl:top-[77px] "
+      <img className="2xl:w-[1440px] 2xl:h-[700px] 2xl:top-[77px]"
         src={hero}
         alt="heroimg"
       />
-      <div className=" 2xl:w-[Fixed 630px]  2xl:top-[440px] 2xl:left-[78px]  2xl:pt-[24px] 2xl:pr-[40px] absolute 2xl:pb-[70px] 2xl:pl-[40px] 2xl:gap-20px bg-gradient-to-r from-green to-blue">
-        <p className="w-[556px] h-[192px] font-bold text-white  capitalize font-inter  text-[46px] leading-lh3 tracking-[-2%]">
+      <div className=" 2xl:w-[Fixed 630px]  2xl:top-[440px] 2xl:left-[78px]  2xl:pt-[24px] 2xl:pr-[40px] absolute 2xl:pb-[70px] 2xl:pl-[40px] 2xl:gap-20px sm:h-[294px] sm:top-[295px] sm:p-[24px_20px_32px_20px] sm:gap-[20px]  bg-gradient-to-r from-green to-blue">
+        <p className="w-[556px] h-[192px] sm:w-[335px] sm:h-[180px] sm:gap-0 font-bold text-white  capitalize font-inter  text-[46px] leading-lh3 tracking-[-2%]">
           We crush your competitors, goals, and sales records - without the B.S.
         </p>
 
-        <button className="2xl:w-[Hug 214px] 2xl:h-[Hug 38px] rounded gap-8 2xl:pt-2 pr-5 pb-1 pl-5 bg-orange font-bold uppercase text-white font-inter text-[14px] leading-lh3 tracking-[-2%]">
-          <p className="2xl:w-[Hug 174px] h-[Hug 14px] 2xl:rounded 2xl:gap-8 2xl:pt-12 2xl:pr-20 2xl:pb-12 2xl:pl-20 bg-orange font-bold uppercase text-white font-inter text-[14px] leading-lh3 tracking-[-2%]">Get free consultation</p>
+        <button className="">
         </button>
       </div>
-      <div className="flex  w-[Hug 1064px] h-[Hug 414px] top-[857px] left-[188px] gap-[108px] ">
-        <img className=" w-[414px] h-[414px] " src={img2} alt="img2" />
-        <div className="m-36">
-          <h3 className=" w-[507px] h-[33px] font-semibold text-primaryPurple font-poppins leading-lh4 text-[27px] tracking-[0.4px]">
+      
+      {/*web & mobile app dev*/}
+      
+      <div className="flex  justify-center w-[Hug 1064px] h-[Hug 414px] top-[857px] left-[188px] gap-[108px] ">
+        <img className="sm:w-[335px] sm:h-[572.82px] sm:top-[649px] sm:left-[20px] sm:gap-[20px]  2xl:w-[414px] 2xl:h-[414px] " src={img2} alt="img2" />
+          <div className=" mt-36 2xl:w-[Hug 542px] 2xl:h-[Hug 187px] 2xl:gap-20">
+          <h3 className="2xl:w-[507px] 2xl:h-[33px] 2xl:gap-12 font-semibold text-primaryPurple font-poppins leading-lh4 text-[27px] tracking-[0.4px]">
             Web & Mobile App Development
-          </h3>
-          <br />
-          <p className=" w-[542px] h-[76px]font-normal font-inter text-[16px] leading-lh5 text-black">
+          </h3><br/>
+        <p className="2xl:w-[542px] 2xl:h-[76px] font-normal font-inter text-[16px] leading-lh5 text-black">
             Your web and mobile Apps are pieces of the puzzle to grow your
             business. We use frameworks which tailor content and engagement
             methods to respond to different intents shown by your potential
@@ -40,10 +40,13 @@ function main() {
           <button className="w-[Hug 129px] h-[Hug 38px] w-[Hug 129px] h-[Hug 38px] rounded gap-8 p-12 pr-20 pb-12 pl-20 uppercase bg-orange text-white  font-inter font-bold text-[14px] leading-[14px] tracking-[-2%] ">
             Learn More
           </button>
-        </div>
+          </div>  
       </div>
+
+      {/*digital stratergy*/}
+      
       <div className="flex w-[Hug 1064px] h-[Hug 414px] gap-[20px] ">
-        {/* <div className="w-[Fixed 542px] h-[Hug 206px] gap-[20px]"> */}
+    
         <div className="m-32">
           <h3 className="w-[507px] h-[33px] font-semibold text-primaryPurple font-poppins leading-lh4 text-[27px] tracking-[0.4px]">
             Digital Strategy Consulting
@@ -61,9 +64,9 @@ function main() {
             LEARN MORE
           </button>
         </div>
-        {/* </div> */}
+        
         <img
-          className=" w-[414px] h-[416px] sm:w-[275px] sm:h-[276px] "
+          className=" w-[414px] h-[416px] sm:w-[275px] sm:h-[275.82px] "
           src={img1}
           alt="img1"
         />
@@ -78,8 +81,10 @@ function main() {
         <div className="w-[fixed 846px] h-[hug 149px] rounded-[7px] gap-13p-24px bg-whitepup">
           <div className="w-[fill 798px] h-[hug 28px] gap-[40px] ">
             <h4 className="font-medium font-inter text-primaryPurple text-[22px] leading-lh6">
-              Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?
-            </h4>
+              Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero? </h4>
+              <div className="flex justify-end rounded bg-primaryPurple">
+              <hr className=" flex justify-normal  w-[14px]  gap-[10px] bg-primaryPurple" />
+                </div>
           </div>
           <div>
             <p className="w-[798px] h-[60px] font-inter  text-darkp front-normal text-[18px] leading-lh7">

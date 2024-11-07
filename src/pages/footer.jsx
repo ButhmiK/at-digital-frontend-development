@@ -4,16 +4,17 @@ import flogo from "../assets/Logo.png";
 
 function footer() {
   return (
-    <div className="screens:sm,md,xl,2xl bg-primaryPurple">
-      <div className="w-[fixed 1440px]h-[Hug 266px] top-[1004px]  flex justify-between left-[99px] p-40 pr-80 pl-80 pb-20 ">
+    <div className="sm:w-[375px] sm:h-[hug 599px] sm:top-[2744px] sm:pt-40 sm:pr-2 sm:pb-20 sm:gap-40 ">
+    <div className=" bg-primaryPurple">
+      <div className="w-[fixed 1440px] h-[Hug 266px] sm:w-[fill 335px] sm:h-[hug 121px] sm:gap-20 top-[1004px]  flex justify-between left-[99px] p-40 pr-80 pl-80 pb-20 ">
         <div className=" flexw-[fixed 413px] h-[Hug 102px]">
           <img
-            className=" screens:sm,md,xl,2xl w-[238.89px] h-[36.11px] top -[-11.11px]"
+            className=" sm:m-5 w-[238.89px] h-[36.11px] top -[-11.11px] sm:w-[238.89px] sm:h-[36.11px] sm:top-[-11.11px]"
             src={flogo}
             alt="footerlogo"
           />
           <br />
-          <p className=" screens:sm,md,xl,2xl w-[413px] h-[57px] text-white font-lato">
+          <p className="  w-[413px] h-[57px] sm:w-[335px] sm:h-[76px] sm:text-[16px] sm:leading-[19.2px] sm: text-white font-lato">
             Your goal is our target. Not anything in between. We use online
             marketing platforms and tools to achieve single objective - your
             business results.
@@ -65,11 +66,11 @@ function footer() {
         <p className="font-medium text-white font-inter leading-lh2">
           Privacy Policy
         </p>
-        {/* <hr className="w-[16px] transform -rotate-90 border-l border-white "></hr> */}
         <p className="mb-10 font-medium text-white font-inter leading-lh2">
           Terms & Conditions
         </p>
       </div>
+    </div>
     </div>
   );
 }

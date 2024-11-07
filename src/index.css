@@ -5,7 +5,7 @@
 @layer utilities{
   .custom-2xl{
     @apply 2xl:2xl:h-[2585px] 2xl:top-[-201px] 2xl:left-[384px];
-  }
+  }  
 }
 /* body {  
   margin: 0;
