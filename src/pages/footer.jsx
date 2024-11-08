@@ -4,28 +4,28 @@ import flogo from "../assets/Logo.png";
 
 function footer() {
   return (
-    <div className="2xl:w-[1440px] 2xl:h-[hug 266px] 2xl:top-[2319px] 2xl:pt-[40px] 2xl:pr-[80px] 2xl:pl-[80px] 2xl:gap-[40px] bg-primaryPurple ">
+    <div className=" w-[fixed 1440px] h-[Hug 77px] 2xl:h-[hug 266px] 2xl:top-[2319px] 2xl:pt-[40px] 2xl:pr-[80px] 2xl:pl-[80px] 2xl:gap-[40px]  xl:w-[fixed 1200px] xl:h-[hug 266px] xl:top-[2183px] xl:pt-[40px] xl:pr-[60px] xl:pl-[60px] xl:gap-[40px] bg-primaryPurple ">
     
 
-      <div className="2xl:w-[fill 1280px] 2xl:h-[Hug 141px] top-[1004px]  flex 2xl:justify-between  ">
+      <div className="2xl:w-[fill 1280px] 2xl:h-[Hug 141px] xl:w-[fill 1080px] xl:h-[Hug 141px] xl:gap[112px] top-[1004px]  flex 2xl:justify-between  xl:justify-between">
         
         {/* img,note */}
-        <div className=" 2xl:[fixed 413px] 2xl:h-[Hug 102px]">
+        <div className=" 2xl:[fixed 413px] 2xl:h-[Hug 102px] 2xl:gap-[20px] xl:w-[fixed 438px] xl:h-[hug 102px] xl:gap-20">
           <img
-            className=" sm:m-5 w-[238.89px] h-[36.11px] top -[-11.11px] sm:w-[238.89px] sm:h-[36.11px] sm:top-[-11.11px]"
+            className=" xl:w-[238.89px] xl:h-[36.11px] sm:m-5 w-[238.89px] h-[36.11px] top -[-11.11px] sm:w-[238.89px] sm:h-[36.11px] sm:top-[-11.11px]"
             src={flogo}
             alt="footerlogo"
           />
           <br />
-          <p className="  2xl:w-[413px] 2xl:h-[57px] sm:w-[335px] sm:h-[76px] text-[16px] leading-[19.2px] sm: text-white font-lato">
+          <p className=" 2xl:w-[413px] 2xl:h-[57px] xl:w-[413px] xl:h-[57px] text-[16px] leading-[19.2px] font-normal  text-white font-lato">
             Your goal is our target. Not anything in between. We use online
             marketing platforms and tools to achieve single objective - your
             business results.
           </p>
         </div>
         {/* tech.services */}
-        <div className="2xl:w-[Hug 522px] 2xl:h-[Hug 141px] flex 2xl:gap-128">
-          <div className="2xl:w-[fixed 197px] 2xl:h-[Hug 141px] grid 2xl:gap-12 ">
+        <div className="2xl:w-[Hug 522px] 2xl:h-[Hug 141px] flex 2xl:gap-128 xl:w-[fill 530px] xl:[hug 141px] xl:gap-20  flex ">
+          <div className="2xl:w-[fixed 197px] 2xl:h-[Hug 141px] grid 2xl:gap-12 xl:w-[255px] xl:h-[Hug 141px] xl:gap-12 ">
             <h3 className="w-[179px] h-[25px] text-white text-[21px] font-inter font-semibold leading-lh1">
               Our Technologies
             </h3>
@@ -44,7 +44,7 @@ function footer() {
               </li>
             </ul>
           </div>
-          <div className="2xl:w-[fixed 197px] 2xl:h-[Hug 129px] grid 2xl:gap-12 ">
+          <div className="2xl:w-[fixed 197px] 2xl:h-[Hug 129px] grid 2xl:gap-12 xl:gap-12px xl:w-[fill 255px] xl:h-[Hug 112px]  ">
             <h4 className="w-[132px] h-[25px] text-white text-[21px] font-inter font-semibold leading-lh1">
               Our Services
             </h4>

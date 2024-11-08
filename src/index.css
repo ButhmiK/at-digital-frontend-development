@@ -1,11 +1,21 @@
 @tailwind base;
 @tailwind components;  
 @tailwind utilities;  
-
+ 
 @layer utilities{
   .custom_2xl{
     @apply 2xl:w-[1440px] 2xl:h-[2300px] 2xl:top-[-201px] 2xl:left-[384px];
-  }    
+  }
+  .cutom_xl{
+    @apply 2xl:w-[1200px] 2xl:h-[2449px] 2xl:top-[-201px] 2xl:left-[2161px];
+  }
+  .custom_md{
+    @apply 2xl:w-[768px] 2xl:h-[2516px] 2xl:top-[-201px] 2xl:left-[3698px];
+  }
+  .custom_sm{
+    @apply 2xl:w-[375px] 2xl:h-[3343px] 2xl:top-[-201px] 2xl:left-[4803px];
+  }
+
 }
 /* body {  
   margin: 0;
